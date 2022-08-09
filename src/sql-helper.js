@@ -49,7 +49,6 @@ function geFileBySeries (series){
     });
 }
 
-
 module.exports = {
     insertFile,
     geFileByFileIdAndStatus,

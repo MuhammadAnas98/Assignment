@@ -38,17 +38,10 @@ router.get("/file/presentationByOrganization", async (request, response) => {
 });
 
 // this API is just for DEMO purpose to test token thingy
-
 router.get("/generateToken", async (reqgit,res) => {
     const accessToken = generateAccessToken()
     res.json({accessToken: accessToken});
 });
-
-
-
-
-
-
 
 module.exports = router;
 
